@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 10vh;
+  background-color: #000;
+  align-items: center;
+  padding: 0 350px;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+  width: auto;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  height: 32px;
+}
