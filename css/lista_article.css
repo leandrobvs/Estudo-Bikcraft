@@ -1,0 +1,24 @@
+.lista-article {
+  background: #fff;
+  display: block;
+}
+
+.lista-article ul {
+  display: flex;
+  display-direction: row;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.lista-article img {
+  height: 350px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.lista-article h2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
