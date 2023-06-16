@@ -1,7 +1,5 @@
 main {
   background: var(--cor-12);
-  margin: 0 auto;
-  padding: 0 350px;
 }
 
 main img {
@@ -14,6 +12,9 @@ main img {
   flex-direction: row;
   align-items: center;
   gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 main h1,
@@ -23,7 +24,8 @@ main p {
 }
 
 main h1 {
-  font-size: 6.2rem;
+  font-size: 6rem;
+  line-height: 70px;
 }
 
 main h1 span {
@@ -31,11 +33,11 @@ main h1 span {
 }
 
 main p {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
 }
 
 .main-text a {
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(var(--cor-p1), var(--cor-p2));
   align-items: center;
@@ -47,6 +49,7 @@ main p {
   color: var(--cor-p5);
   text-transform: uppercase;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .main-text a:hover {
