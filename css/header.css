@@ -5,13 +5,13 @@ header {
 .header-content {
   display: flex;
   justify-content: space-between;
-  height: 10vh;
+  height: max-content;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
   flex-wrap: wrap;
   gap: 0 20px;
-  padding: 0 20px;
+  padding: 10px 20px;
 }
 
 .header-content ul {
@@ -51,7 +51,7 @@ header {
   height: 32px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .header-content ul a {
     background-color: var(--cor-11);
     padding: 5px 20px;
@@ -69,7 +69,13 @@ header {
     justify-content: center;
   }
   .header-content {
-    justify-content: center;
     gap: 20px 20px;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 588px) {
+  .header-content {
+    justify-content: center;
   }
 }
