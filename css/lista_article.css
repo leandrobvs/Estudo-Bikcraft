@@ -9,10 +9,11 @@
   justify-content: center;
   gap: 30px;
   list-style: none;
+  padding: 0 20px;
 }
 
 .lista-article img {
-  height: 350px;
+  height: 550px;
   border-radius: 5px;
   object-fit: cover;
 }
