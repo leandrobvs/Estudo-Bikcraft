@@ -54,14 +54,6 @@ main p {
 }
 
 @media (max-width: 1200px) {
-  main h1 {
-    font-size: 4.8rem;
-  }
-
-  main p {
-    font-size: 1.8rem;
-  }
-
   .main-text a {
     font-size: 1.6rem;
     padding: 8px 16px;

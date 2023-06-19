@@ -1,6 +1,7 @@
 .lista-article {
   background: #fff;
   display: block;
+  padding-bottom: 100px;
 }
 
 .lista-article ul {
@@ -52,4 +53,17 @@
 
 .lista-article a:hover h3::before {
   width: 28px;
+}
+
+@media (max-width: 800px) {
+  .lista-article ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lista-article img {
+    height: 400px;
+  }
+  .list-article a {
+  }
 }
