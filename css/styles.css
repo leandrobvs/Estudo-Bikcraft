@@ -36,6 +36,15 @@ img {
   font-size: 2rem;
 }
 
+.texto-grande-medio {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.texto-pequeno {
+  font-size: 1.6rem;
+}
+
 .tipografia1 {
   font-family: 'Poppins', sans-serif;
 }

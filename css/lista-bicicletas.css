@@ -9,6 +9,7 @@
   gap: 30px;
   list-style: none;
   padding: 0 20px;
+  list-style: none;
 }
 
 .lista-article img {
@@ -21,4 +22,34 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px 20px;
+}
+
+.lista-article a {
+  text-decoration: none;
+  color: #000;
+}
+
+.lista-article a span {
+  font-weight: 500;
+  color: var(--cor-9);
+  padding-left: 23px;
+}
+
+.lista-article h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lista-article h3::before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 8px;
+  background: var(--cor-p1);
+  transition: 0.25s;
+}
+
+.lista-article a:hover h3::before {
+  width: 28px;
 }
