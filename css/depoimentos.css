@@ -1,0 +1,82 @@
+.depoimento-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--cor-p1);
+}
+
+.depoimento-content img {
+  object-fit: cover;
+}
+
+.depoimento {
+  background: var(--cor-p1);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-self: end;
+  flex: 1;
+}
+
+.depoimento p {
+  color: var(--cor-p5);
+  font-size: 3rem;
+  padding: 0 100px 0 80px;
+  font-style: italic;
+  font-weight: 700;
+  max-width: 38ch;
+  position: relative;
+}
+
+.depoimento span {
+  color: var(--cor-p5);
+  font-size: 2.4rem;
+  padding: 0 100px 50px 80px;
+}
+
+.depoimento img {
+  width: 80px;
+  height: 80px;
+}
+
+.depoimento p::before {
+  content: '“';
+  font-family: 'IM Fell DW Pica', serif;
+  font-size: 7rem;
+  position: absolute;
+  color: var(--cor-p2);
+  left: 30px;
+  top: -20px;
+}
+
+.depoimento p::after {
+  content: '”';
+  font-family: 'IM Fell DW Pica', serif;
+  font-size: 7rem;
+  color: var(--cor-p2);
+  position: absolute;
+}
+
+@media (max-width: 1200px) {
+  .depoimento-content {
+    grid-template-columns: 1fr;
+  }
+  .depoimento p {
+    font-size: 3.2rem;
+    padding: 150px 200px 0 90px;
+    max-width: 50ch;
+  }
+
+  .depoimento span {
+    color: var(--cor-11);
+    font-size: 1.6rem;
+    padding: 0 200px 50px 90px;
+  }
+  .depoimento-content img {
+    display: none;
+  }
+  .depoimento p::before {
+    position: absolute;
+    top: 130px;
+    left: 50px;
+  }
+}
