@@ -1,0 +1,87 @@
+.footer {
+  background-color: var(--cor-12);
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr 2fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px 40px 20px;
+}
+
+footer .contato span {
+  color: var(--cor-6);
+  display: block;
+}
+
+.footer-content h3 {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+footer .contato {
+  font-size: flex;
+  flex-direction: column;
+}
+
+.contato .email {
+  padding-bottom: 30px;
+}
+
+.contato .estado {
+  padding-bottom: 40px;
+}
+
+.contato .rede-social {
+  display: flex;
+  gap: 40px;
+}
+
+footer .contato img {
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.footer-content span {
+  grid-column: 1/-1;
+}
+
+.footer-content .links ul {
+  list-style: none;
+}
+
+.footer-content .links a {
+  text-decoration: none;
+  color: var(--cor-6);
+}
+
+.footer-content .links li {
+  padding-bottom: 15px;
+}
+
+.footer-content .links a:hover {
+  color: var(--cor-0);
+}
+
+.links {
+  padding-bottom: 100px;
+}
+
+@media (max-width: 800px) {
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 40px;
+  }
+  .footer-content a {
+    padding-bottom: 40px;
+  }
+  .contato .email {
+    padding-bottom: 15px;
+  }
+
+  .contato .estado {
+    padding-bottom: 20px;
+  }
+}
