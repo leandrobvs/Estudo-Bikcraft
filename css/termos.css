@@ -1,0 +1,42 @@
+.termos-bg {
+  background-color: var(--cor-11);
+}
+
+.termos-content {
+  max-width: 1400px;
+  margin: 0 auto;
+
+  padding: 40px 600px 40px 20px;
+  background-color: var(--cor-0);
+}
+
+.termos-title {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.termos-content-bg {
+  background-color: var(--cor-0);
+}
+
+.termos-content p {
+  color: var(--cor-8);
+  padding-bottom: 40px;
+}
+
+.termos-content h3 {
+  padding-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+  .termos-content {
+    padding-right: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  .termos-content {
+    padding-right: 80px;
+  }
+}
