@@ -3,15 +3,14 @@
 }
 
 .termos-content {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
-
-  padding: 40px 600px 40px 20px;
+  padding: 40px 200px 40px 20px;
   background-color: var(--cor-0);
 }
 
 .termos-title {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
 }
@@ -31,7 +30,7 @@
 
 @media (max-width: 1200px) {
   .termos-content {
-    padding-right: 300px;
+    padding-right: 150px;
   }
 }
 

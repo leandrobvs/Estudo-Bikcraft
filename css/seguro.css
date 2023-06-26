@@ -1,0 +1,97 @@
+.seguro-bg {
+  background-color: var(--cor-11);
+}
+
+.seguro-title {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.vantagens-bg {
+  background: var(--cor-12);
+}
+
+.vantagens-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px 60px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.vantagens-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 50px;
+}
+
+.vantagens-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vantagens-boxes img {
+  width: 28px;
+  height: auto;
+}
+
+.vantagens-boxes p {
+  color: var(--cor-6);
+}
+
+.faq-bg {
+  background: var(--cor-0);
+}
+
+.faq-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px 80px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.faq dt {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.faq dt:nth-child(odd) {
+}
+
+.faq dt::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 8px;
+  background: var(--cor-p1);
+}
+
+.faq dd {
+  font-size: 16px;
+  color: var(--cor-8);
+  padding: 10px 20px 10px 20px;
+}
+
+.faq dl > div:nth-child(odd) {
+  background: var(--cor-1);
+}
+
+.faq dl > div {
+  padding: 0 20px 20px 20px;
+}
+
+.faq dt::after {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  background-image: url(../img/icones/seta-abrir.svg);
+}
