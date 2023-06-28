@@ -1,0 +1,140 @@
+main#bicicleta {
+  background-color: var(--cor-11);
+}
+
+.bic-main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px 100px 20px;
+}
+
+.bicicleta-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.bicicleta-img img {
+  flex: 1;
+  min-width: 200px;
+}
+
+.bicicleta-img img:first-child {
+  min-width: 100%;
+}
+
+.bic-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.bic-comprar {
+  display: grid;
+  grid-template-columns: max-content auto;
+  justify-items: start;
+  align-items: center;
+  gap: 8px 12px;
+}
+
+.bic-comprar img {
+  width: 22px;
+  height: auto;
+}
+
+.bic-comprar a {
+  grid-row: span 2;
+}
+
+.bic-comprar span {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background: var(--cor-12);
+  border-radius: 5px;
+  padding: 3px 6px;
+}
+
+.bic-infos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--cor-12);
+  padding: 30px 20px;
+  border-radius: 5px;
+  gap: 30px;
+}
+
+.ficha-tec {
+  background: var(--cor-12);
+  padding: 30px 20px 30px 20px;
+  border-radius: 5px;
+}
+
+.ficha-lista {
+  color: var(--cor-0);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ficha-lista span {
+  color: var(--cor-6);
+}
+
+.ficha-lista li {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+}
+
+.ficha-lista li + li {
+  border-top: solid 1px var(--cor-11);
+}
+
+.bic-infos img {
+  width: 24px;
+  height: auto;
+}
+
+.bic-comprar a {
+  background: linear-gradient(var(--cor-p1), var(--cor-p2));
+  align-items: center;
+  justify-content: center;
+  max-width: max-content;
+  padding: 16px 32px;
+  display: flex;
+  border-radius: 5px;
+  color: var(--cor-p5);
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.bic-comprar a:hover {
+  background: linear-gradient(var(--cor-p1), var(--cor-p3));
+}
+
+@media (max-width: 800px) {
+  .bic-main-content {
+    grid-template-columns: 1fr;
+  }
+  .bicicleta-img {
+    grid-row: 2;
+  }
+}
+
+@media (max-width: 400px) {
+  .bic-infos {
+    grid-template-columns: 1fr;
+  }
+  .bic-comprar {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}

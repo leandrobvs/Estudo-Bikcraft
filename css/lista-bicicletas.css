@@ -13,7 +13,7 @@
   list-style: none;
 }
 
-.lista-article img {
+#index-lista img {
   height: 550px;
   border-radius: 5px;
   object-fit: cover;
