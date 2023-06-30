@@ -1,0 +1,203 @@
+.contato-bg-header {
+  background: var(--cor-11);
+}
+
+.contato-content {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+}
+
+.contato-bg {
+  background: linear-gradient(var(--cor-11) 50%, var(--cor-1) 50%);
+}
+
+.contato-title {
+  padding: 60px 20px;
+}
+
+.contato-text img {
+  width: 24px;
+  display: inline-block;
+}
+
+.contato-text {
+  background: var(--cor-12);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 60px 20px 60px 80px;
+  border-radius: 5px 0 0 5px;
+}
+
+.rede-social {
+  display: flex;
+  gap: 40px;
+}
+
+.flex-contato {
+  display: flex;
+  gap: 40px;
+}
+
+.contato-nome {
+  width: 100%;
+}
+
+.contato-tel {
+  width: 100%;
+}
+
+.endereco {
+  display: flex;
+  flex-direction: column;
+}
+
+.contato-form {
+  background: var(--cor-0);
+  padding: 60px 20px;
+  border-radius: 0 5px 5px 0;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 15px;
+  font-family: 'Merriweather', serif;
+  padding: 10px;
+}
+
+textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-family: 'Merriweather', serif;
+}
+
+.icon-end::before {
+  content: '';
+  display: inline-block;
+  width: 22px;
+  height: 20px;
+  background-image: url(../img/icones/local.svg);
+  position: absolute;
+  left: -26px;
+}
+
+.icon-end {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.icon-mail::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/icones/email.svg);
+  position: absolute;
+  left: -26px;
+}
+
+.icon-mail {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.icon-phone::before {
+  content: '';
+  display: inline-block;
+  width: 22px;
+  height: 20px;
+  background-image: url(../img/icones/telefone.svg);
+  position: absolute;
+  left: -26px;
+}
+
+.icon-phone {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* Lojas Locais */
+
+.lojas-bg {
+  background: var(--cor-1);
+}
+
+.lojas-content h2 {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  grid-column: 1/-1;
+}
+
+.lojas-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-bottom: 80px;
+}
+
+.rj {
+  background: var(--cor-0);
+  box-shadow: 2px 2px 2px var(--cor-6);
+  border-radius: 5px;
+}
+
+.sp {
+  background: var(--cor-0);
+  box-shadow: 2px 2px 2px var(--cor-6);
+  border-radius: 5px;
+}
+
+.rj img,
+.sp img {
+  border-radius: 5px;
+}
+
+.rj ul,
+.sp ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 60px 20px 40px;
+
+  justify-content: space-between;
+}
+
+.rj li,
+.sp li {
+  min-width: 200px;
+  border-left: solid 1px var(--cor-3);
+  padding-left: 20px;
+}
+
+.rj li:nth-child(-n + 2),
+.sp li:nth-child(-n + 2) {
+  padding-bottom: 10px;
+}
+
+.rj span img,
+.sp span img {
+  display: inline-block;
+}
+
+.rj span,
+.sp span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rj h3,
+.sp h3,
+.rj span,
+.sp span {
+  padding: 20px 40px 20px 40px;
+}
