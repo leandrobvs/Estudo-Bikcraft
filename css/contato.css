@@ -69,12 +69,18 @@ input {
   margin-bottom: 15px;
   font-family: 'Merriweather', serif;
   padding: 10px;
+  background: var(--cor-2);
+  border-radius: 5px;
+  border: solid 1px var(--cor-3);
 }
 
 textarea {
   margin-bottom: 20px;
   padding: 10px;
   font-family: 'Merriweather', serif;
+  background: var(--cor-2);
+  border-radius: 5px;
+  border: solid 1px var(--cor-3);
 }
 
 .icon-end::before {
@@ -141,7 +147,7 @@ textarea {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  padding-bottom: 80px;
+  padding: 0 20px 80px 20px;
 }
 
 .rj {
@@ -200,4 +206,13 @@ textarea {
 .rj span,
 .sp span {
   padding: 20px 40px 20px 40px;
+}
+
+@media (max-width: 800px) {
+  .contato-content {
+    grid-template-columns: 1fr;
+  }
+  .lojas-content {
+    grid-template-columns: 1fr;
+  }
 }
