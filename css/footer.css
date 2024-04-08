@@ -20,11 +20,6 @@ footer .contato span {
   padding-bottom: 20px;
 }
 
-footer .contato {
-  font-size: flex;
-  flex-direction: column;
-}
-
 .contato .email {
   padding-bottom: 30px;
 }
