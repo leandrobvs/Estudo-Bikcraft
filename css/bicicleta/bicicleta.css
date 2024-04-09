@@ -125,7 +125,8 @@ main#bicicleta {
     grid-template-columns: 1fr;
   }
   .bicicleta-img {
-    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1;
   }
 }
 

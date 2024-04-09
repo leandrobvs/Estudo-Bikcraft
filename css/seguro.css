@@ -55,7 +55,7 @@
   gap: 50px;
 }
 
-.faq dt {
+summary {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
@@ -63,10 +63,11 @@
   cursor: pointer;
 }
 
-.faq dt:nth-child(odd) {
+.faq details:nth-child(odd) {
+  background-color: var(--cor-3);
 }
 
-.faq dt::before {
+.faq summary::before {
   content: '';
   display: inline-block;
   width: 16px;
@@ -74,24 +75,35 @@
   background: var(--cor-p1);
 }
 
-.faq dd {
+.faq summary {
   font-size: 16px;
   color: var(--cor-8);
   padding: 10px 20px 10px 20px;
 }
 
-.faq dl > div:nth-child(odd) {
+.faq p > div:nth-child(odd) {
   background: var(--cor-1);
 }
 
-.faq dl > div {
+.faq p {
   padding: 0 20px 20px 20px;
+  color: var(--cor-7);
+  font-size: 1.6rem;
 }
 
-.faq dt::after {
+.faq summary::after {
   content: '';
   display: inline-block;
   width: 14px;
   height: 6px;
   background-image: url(../img/icones/seta-abrir.svg);
+}
+
+.faq summary:hover::after {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  background-image: url(../img/icones/seta-abrir.svg);
+  transform: rotate(180deg);
 }

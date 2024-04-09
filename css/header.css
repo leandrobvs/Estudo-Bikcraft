@@ -43,8 +43,13 @@ header {
   position: absolute;
 }
 
-.header-content ul a:hover:after {
+.header-content ul a:hover::after {
   width: 100%;
+}
+
+.header-content ul a.ativo::after {
+  width: 100%;
+  transition: none;
 }
 
 .logo {
