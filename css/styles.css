@@ -146,3 +146,12 @@ img {
 .flex {
   display: flex;
 }
+
+[data-anime] {
+  opacity: 0;
+}
+.anime {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.8s, opacity 0.8s;
+}

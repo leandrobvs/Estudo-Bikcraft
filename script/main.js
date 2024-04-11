@@ -36,3 +36,9 @@ images.forEach(function (image) {
     }
   });
 });
+
+// Plugins Animação //
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
